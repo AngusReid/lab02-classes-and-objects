@@ -25,7 +25,15 @@ class Fraction{
     }
     
     var description: String {
+        if(self.den == 1){
+            
+            return "\(self.num)"
+        }else if(self.num >= self.den){
+            return "\(self.num / self.den) " + "\(self.num % self.den)/\(self.den)"
+        }else{
         return "\(self.num)/\(self.den)"
+            
+        }
         
     }
     

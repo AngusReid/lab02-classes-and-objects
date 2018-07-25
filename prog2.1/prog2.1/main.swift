@@ -13,7 +13,7 @@ var u: Fraction
 
 
 
-u = Fraction(num: 2, den: 3)
+u = Fraction(num: 11, den: 3)
 //u.den = 0
 
 print("u=\(u.description)")
